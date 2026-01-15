@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Ponomar&display=swap');
+
+body{
+    background-color: #FFF2F2;
+}
+
+
+
+.head{
+    display: flex;
+    position: relative;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: auto;
+    background-color: #F5ABAB;
+}
+
+.main_header{
+    position: relative;
+    font-size: 56px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.header_image{
+    position: relative;
+    height: 80px;
+}
+
+.category_list{
+    position: absolute;
+    width: 100px;
+    height: auto;
+    margin-top: 130px;
+}
+
+.category_point{
+    
+}
+
+.main{
+    font-family: "Motserrat", sans-serif;
+    display: flex;
+    position: relative;
+    width: 1511px;
+    left: 101px;
+    top: 130px;
+}
