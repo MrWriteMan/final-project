@@ -1,10 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Ponomar&display=swap');
 
-body{
-    background-color: #FFF2F2;
+*{
+    font-family: "Montserrat", sans-serif;
+    color: #5f1e1e;
 }
 
+body{
+    background-color: #FFF2F2;
+    scroll-behavior: smooth;
+}
 
+h1{
+    font-size: 50px;
+}
+
+footer{
+    background-color: #5f1e1e;
+    height: 300px;
+    top:200px;
+    position: relative;
+}
 
 .head{
     display: flex;
@@ -14,12 +29,13 @@ body{
     padding-bottom: 15px;
     height: auto;
     background-color: #F5ABAB;
+    flex-direction: row;
 }
 
 .main_header{
     position: relative;
     font-size: 56px;
-    font-family: "Montserrat", sans-serif;
+    height: 56px;
 }
 
 .header_image{
@@ -28,21 +44,219 @@ body{
 }
 
 .category_list{
-    position: absolute;
-    width: 100px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 50px;
     height: auto;
-    margin-top: 130px;
+    margin-top: 30px;
+    margin-left: 25px;
+    background-color:#ffcaca;
+    align-items: center;
+    height: 770px;
+    border-radius: 32px;
 }
 
-.category_point{
-    
+.in_list{
+    background-color: #ffe1e1;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    height: 770px;
+    width: 33px;
+    border-radius: 16px;
+    height: 690px;
+}
+
+.category_button{
+    width: 24px;
+    background-color: #F5ABAB;
+    border-radius: 16px;
+    height: 24px;
+    border-color:#f37d7d;
+    border-style:solid;
+    border-width: 4px;
+}
+
+.category_button:hover{
+    transition: 1s;
+    background-color: #f19d9d;
+}
+.category_button:active{
+    background-color: #5f1e1e;
+}
+
+a{
+    height: 24px;
+    margin-top: 56px;
 }
 
 .main{
-    font-family: "Motserrat", sans-serif;
     display: flex;
     position: relative;
-    width: 1511px;
+    width: 1711px;
     left: 101px;
-    top: 130px;
+    top: 20px;
+}
+
+.article{
+    background-color: #ffcaca;
+    border-radius: 6px;
+    margin-left: 13px;
+    margin-right: 13px;
+    margin-top: 13px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    width: 1511px;
+}
+
+.prog_lang_article{
+    background-color: #ffe1e1;
+    border-radius: 8px;
+}
+
+.article-name{
+    margin-left:10px;
+    margin-top: 12px;
+}
+
+p{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.analitic-machine-photo{
+    height: 475px;
+    margin-top: 10px;
+    margin-right: 255px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+
+.portrait-img{
+    height: 475px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.computer-img{
+    height: 475px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+
+.end{
+    margin-bottom: 40px;
+}
+
+.img-role{
+    height:247px;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.und-article{
+    background-color: #fdbbbb;
+    border-radius: 6px;
+    margin-left: 10px;
+    padding-left: 10px;
+    margin-right: 10px;
+    padding-right:10px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+.language-type{
+    padding-top: 70px;
+    text-align: justify;
+}
+
+.p1{
+    position: relative;
+    width: 500px;
+    left: 143px;
+}
+
+.p2{
+    width: 643px;
+}
+
+.lang-logo{
+    height: auto;
+    position: absolute;
+    width: 143px;
+}
+
+.code-showing{
+    width: 617px;
+    position: absolute;
+    left: 750px;
+    display: table-cell;
+}
+
+.lang-logo1{
+    height: auto;
+    position: absolute;
+    width: 235px;
+    right: 1488px;
+}
+
+.code-showing-bigger-1{
+    width: 577px;
+    position: absolute;
+    left: 750px;
+    display: table-cell;
+}
+
+.und-article h2{
+    font-size: 40px;
+}
+
+.code-showing-bigger-2{
+    width: 500px;
+    position: absolute;
+    left: 750px;
+    display: table-cell;
+}
+
+.code-showing-bigger-3{
+    width: 433px;
+    position: absolute;
+    left: 750px;
+    display: table-cell;
+}
+
+.big{
+    width: 77px;
+    margin-left: 30px;
+}
+
+.settings{
+    height: 70px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: relative;
+    left: 700px;
+    top: 4px;
+}
+
+.settings > img {
+    height: 70px;
+}
+.settings > button{
+    color: black;
+    position: relative;
+    bottom: 16px;
+    background-color: #F5ABAB;
+    border-color: #f5abab;
+    border-style: solid;
+    height: 50px;
+    font-size: 50px;
+    border-radius: 16px;
 }
