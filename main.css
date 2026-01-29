@@ -19,6 +19,8 @@ footer{
     height: 300px;
     top:200px;
     position: relative;
+    padding-left: 60px;
+    padding-top: 30px;
 }
 
 .head{
@@ -131,7 +133,6 @@ p{
 .analitic-machine-photo{
     height: 475px;
     margin-top: 10px;
-    margin-right: 255px;
     margin-bottom: 30px;
     margin-left: 15px;
 }
@@ -140,6 +141,7 @@ p{
     height: 475px;
     margin-top: 10px;
     margin-bottom: 30px;
+    margin-left: 255px;
 }
 
 .computer-img{
@@ -249,6 +251,7 @@ p{
 .settings > img {
     height: 70px;
 }
+
 .settings > button{
     color: black;
     position: relative;
@@ -259,4 +262,148 @@ p{
     height: 50px;
     font-size: 50px;
     border-radius: 16px;
+}
+
+.set_window{
+    height: 400px;
+    width: 350px;
+    position: absolute;
+    background-color:#F5ABAB;
+    z-index: 5;
+    margin-top: 15px;
+    right: 17px;
+    border-radius: 6px;
+    border-color: #f19d9d;
+    border-style: solid;
+    border-width: 6px;
+    display: none;
+}
+
+.opt_select{
+    width: 200px;
+    height: 25px;
+    margin-left: 17px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    background-color: #FFF2F2;
+    color: #5f1e1e;
+}
+
+.set_window > h1 {
+    font-size: 24px;
+    margin-left: 100px;
+}
+
+.set_window > p{
+    margin-left: 13px;
+}
+
+.submit{
+    width: 250px;
+    height: 40px;
+    color: white;
+    background-color: #5f1e1e;
+    border-radius: 4px;
+    border-color: #4b1515;
+    border-style: solid;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.photo{
+    width: 1640px;
+    height: auto;
+    background-color: #f5abab;
+    position: absolute;
+    margin-top: 40px;
+    left: 135px;
+    z-index: 5;
+    border-radius: 8px;
+    border-style: solid;
+    display: none;
+}
+.photo > h1{
+    margin-left: 13px;
+}
+
+.photo > h2 {
+    margin-left: 18px;
+}
+
+.photo > p{
+    margin-left: 23px;
+}
+
+.an_mach{
+    margin-top: 15px;
+    border-radius: 6px;
+    margin-left: 177px;
+    margin-bottom: 17px;
+    border-style: solid;
+}
+
+.close_button{
+    background-color: #f5abab;
+    border-style: solid;
+    border-color: #f5abab;
+    width: 50px;
+    height: 50px;
+    font-size: 50px;
+    cursor: pointer;
+    position:absolute;
+    top: 15px;
+    left: 1550px;
+}
+
+.main_page_photo{
+    border-radius: 9px;
+}
+
+.Ada-portrait{
+    margin-top: 15px;
+    border-radius: 6px;
+    margin-left: 647px;
+    margin-bottom: 17px;
+    border-style: solid;
+}
+
+.eniac{
+    margin-top: 15px;
+    border-radius: 6px;
+    margin-left: 337px;
+    margin-bottom: 17px;
+    border-style: solid;
+}
+
+.more_info{
+    height: 32px;
+    width: 32px;
+    background-color: #fff2f280;
+    position: absolute;
+    border-radius: 32px;
+    text-align: center;
+    margin-top: 445px;
+    right: 246px;
+    cursor: pointer;
+}
+
+span > .more_info{
+    right: 840px;
+}
+
+.span_2 > .more_info{
+    right: 1066px;
+}
+
+.footer_h1 {
+    color: #ffe1e1;
+}
+.footer_h3{
+    color: #ffe1e1;
+}
+.footer_a{
+    color: #ffe1e1;
+    text-decoration: solid;
 }
